@@ -44,7 +44,7 @@ export default function Contact() {
 
       const result = await response.json().catch(() => ({}));
 
-      if (response.ok) {
+      if (response.ok && result.success) {
         setSubmitted(true);
         confetti({
           particleCount: 100,
@@ -53,21 +53,11 @@ export default function Contact() {
         });
         setFormState({ name: '', email: '', subject: '', message: '' });
       } else {
-        // Fallback or display friendly error
-        console.warn('API error:', result.error);
-        setSubmitted(true);
-        confetti({
-          particleCount: 80,
-          spread: 60,
-          origin: { y: 0.6 }
-        });
-        setFormState({ name: '', email: '', subject: '', message: '' });
+        setErrorMsg(result.error || 'Failed to save message. Please check database connection.');
       }
     } catch (err) {
       console.error('Submission error:', err);
-      // Client-side fallback so user is never blocked
-      setSubmitted(true);
-      setFormState({ name: '', email: '', subject: '', message: '' });
+      setErrorMsg('Network error: ' + (err.message || 'Unable to connect to server.'));
     } finally {
       setIsSubmitting(false);
     }
@@ -295,6 +285,12 @@ export default function Contact() {
                       className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-indigo-500 resize-none"
                     />
                   </div>
+
+                  {errorMsg && (
+                    <div className="p-3.5 rounded-xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-800 text-xs text-rose-700 dark:text-rose-300">
+                      {errorMsg}
+                    </div>
+                  )}
 
                   <button
                     type="submit"
