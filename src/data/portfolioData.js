@@ -13,8 +13,8 @@ export const portfolioData = {
       { address: 'kumaravinash2204@gmail.com', label: 'Personal Email' }
     ],
     links: {
-      github: 'https://github.com',
-      linkedin: 'https://linkedin.com'
+      github: 'https://github.com/notavii',
+      linkedin: 'https://www.linkedin.com/in/avinashiitg/'
     },
     status: 'Available for Product & Analytics Roles',
     location: 'IIT Guwahati / New Delhi, India',
@@ -101,7 +101,7 @@ export const portfolioData = {
         hasDashboard: true,
         dashboardFileName: 'zomato_powerbi_dashboard.pbix',
         hasMVP: true,
-        mvpUrl: 'https://lovable.dev'
+        mvpUrl: 'https://zomato-business.lovable.app/'
       },
       prdOverview: {
         problem: 'New restaurateurs in Bangalore face a ~60% failure rate within the first 18 months due to blind spot expansion, high competition density, and misaligned cuisine-market fit.',
@@ -136,7 +136,7 @@ export const portfolioData = {
       ],
       artifacts: {
         hasDeck: true,
-        deckFileName: 'finguide_ai_product_strategy_deck.pdf'
+        deckUrl: 'https://drive.google.com/file/d/1iCpBZhgXpPYxk3NUhzyLGa1GzYL3OHar/view?usp=drive_link'
       },
       deckOverview: {
         marketOpportunity: 'Young professionals struggle with disparate banking apps, complex financial jargon, and fear of automated investment tools with zero transparent reasoning.',
@@ -169,7 +169,7 @@ export const portfolioData = {
       ],
       artifacts: {
         hasGithub: true,
-        githubUrl: 'https://github.com'
+        githubUrl: 'https://github.com/notavii/Delivery-ETA-optimization'
       },
       techOverview: {
         architecture: 'Multi-layer pipeline extracting spatial network topology, temporal dwell times, weather patterns, and route transit variance.',
@@ -201,7 +201,7 @@ export const portfolioData = {
       ],
       artifacts: {
         hasDeck: true,
-        deckFileName: 'valueforge_strategy_deck.pdf'
+        deckUrl: 'https://drive.google.com/file/d/1USE61D67qwy5tYjZv1wh2Gw18LYfrVYG/view?usp=sharing'
       },
       deckOverview: {
         problem: 'Over 80% of new CPG product launches fail within 12 months because brand teams rely on lagging market trends, resulting in copycat products in saturated categories.',
