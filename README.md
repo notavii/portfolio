@@ -123,6 +123,6 @@ Designed a whitespace detection engine for CPG brand managers combining a **Cate
 
 <br/>
 
-📧 r.avinash@iitg.ac.in &nbsp;|&nbsp; 📧 kumaravinash2204@gmail.com &nbsp;|&nbsp; 📍 IIT Guwahati / New Delhi, India
+📧 r.avinash@iitg.ac.in &nbsp;|&nbsp; 📧 kumaravinash2204@gmail.com &nbsp;|&nbsp; 📍 IIT Guwahati,Assam, India
 
 </div>
