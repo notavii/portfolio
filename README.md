@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-<img src="public/profile.jpg" alt="Avinash Raj" width="120" style="border-radius: 50%;" />
+<!-- <img src="public/profile.jpg" alt="Avinash Raj" width="120" style="border-radius: 50%;" /> -->
 
 <br/>
 
